@@ -1,9 +1,11 @@
 import './App.css';
+import Spheres from './component/sphere/Spheres';
 
 function App() {
   return (
     <div className="App">
-      Hello React
+      <h1>Volume Calculator</h1>
+      <Spheres />
     </div>
   );
 }
